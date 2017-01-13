@@ -45,6 +45,11 @@ repo.path=/var/Emacs-China-Git-Mirrors/org-mode.git
 repo.desc=Org Mode
 repo.clone-url=git://elpa.emacs-china.org/org-mode.git git://orgmode.org/org-mode.git
 
+repo.url=remacs.git
+repo.path=/var/Emacs-China-Git-Mirrors/remacs.git
+repo.desc=A community-driven port of Emacs to Rust
+repo.clone-url=git://elpa.emacs-china.org/remacs.git https://github.com/Wilfred/remacs.git
+
 # Local Variables:
 # mode: conf-unix
 # End:
