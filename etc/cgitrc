@@ -1,0 +1,50 @@
+#
+# cgit config
+# see cgitrc(5) for details
+#
+# Put this file to /etc/cgitrc
+
+root-title=Emacs China Git Repository
+root-desc=Mirrors of some giant Emacs projects.
+
+enable-index-owner=0
+
+# Allow download of tar.gz, tar.bz2 and zip-files
+snapshots=zip
+
+# Disable http transport git clone (We use git-daemon instead)
+enable-git-clone=0
+
+# Remove .git suffix from project display
+remove-suffix=1
+
+# Prepend this string to every url
+virtual-root=/git/
+
+# Work together with Nginx
+css=/cgit-css/cgit.css
+logo=/cgit-css/cgit.png
+
+# Add some mirrored repositories
+section=mirrors
+
+# scan-path=/root/Emacs-China-Git-Mirrors/
+
+repo.url=emacs.git
+repo.path=/var/Emacs-China-Git-Mirrors/emacs.git
+repo.desc=GNU Emacs
+repo.clone-url=git://elpa.emacs-china.org/emacs.git git://git.sv.gnu.org/emacs.git
+
+repo.url=emacs-mac.git
+repo.path=/var/Emacs-China-Git-Mirrors/emacs-mac.git
+repo.desc=Emacs Mac Port
+repo.clone-url=git://elpa.emacs-china.org/emacs-mac.git https://bitbucket.org/mituharu/emacs-mac.git
+
+repo.url=org-mode.git
+repo.path=/var/Emacs-China-Git-Mirrors/org-mode.git
+repo.desc=Org Mode
+repo.clone-url=git://elpa.emacs-china.org/org-mode.git git://orgmode.org/org-mode.git
+
+# Local Variables:
+# mode: conf-unix
+# End:
