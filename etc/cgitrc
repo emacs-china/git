@@ -19,7 +19,7 @@ enable-git-clone=0
 remove-suffix=1
 
 # Prepend this string to every url
-virtual-root=/git/
+virtual-root=/
 
 # Work together with Nginx
 css=/cgit-css/cgit.css
@@ -33,22 +33,22 @@ section=mirrors
 repo.url=emacs.git
 repo.path=/var/Emacs-China-Git-Mirrors/emacs.git
 repo.desc=GNU Emacs
-repo.clone-url=git://elpa.emacs-china.org/emacs.git git://git.sv.gnu.org/emacs.git
+repo.clone-url=git://git.emacs-china.org/emacs.git git://git.sv.gnu.org/emacs.git
 
 repo.url=emacs-mac.git
 repo.path=/var/Emacs-China-Git-Mirrors/emacs-mac.git
 repo.desc=Emacs Mac Port
-repo.clone-url=git://elpa.emacs-china.org/emacs-mac.git https://bitbucket.org/mituharu/emacs-mac.git
+repo.clone-url=git://git.emacs-china.org/emacs-mac.git https://bitbucket.org/mituharu/emacs-mac.git
 
 repo.url=org-mode.git
 repo.path=/var/Emacs-China-Git-Mirrors/org-mode.git
 repo.desc=Org Mode
-repo.clone-url=git://elpa.emacs-china.org/org-mode.git git://orgmode.org/org-mode.git
+repo.clone-url=git://git.emacs-china.org/org-mode.git git://orgmode.org/org-mode.git
 
 repo.url=remacs.git
 repo.path=/var/Emacs-China-Git-Mirrors/remacs.git
 repo.desc=A community-driven port of Emacs to Rust
-repo.clone-url=git://elpa.emacs-china.org/remacs.git https://github.com/Wilfred/remacs.git
+repo.clone-url=git://git.emacs-china.org/remacs.git https://github.com/Wilfred/remacs.git
 
 # Local Variables:
 # mode: conf-unix
