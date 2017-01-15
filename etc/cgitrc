@@ -4,9 +4,16 @@
 #
 # Put this file to /etc/cgitrc
 
+# Set the title and heading of the repository index page
 root-title=Emacs China Git Repository
+
+# Set a subheading for the repository index page
 root-desc=Mirrors of some giant Emacs projects.
 
+# Include some more info about git.emacs-china.org on the index page
+root-readme=/var/Emacs-China-Git-Mirrors/readme.html
+
+# Don't show owner of each repos
 enable-index-owner=0
 
 # Allow download of tar.gz, tar.bz2 and zip-files
@@ -16,7 +23,7 @@ snapshots=zip
 enable-git-clone=0
 
 # Remove .git suffix from project display
-remove-suffix=1
+# remove-suffix=1
 
 # Prepend this string to every url
 virtual-root=/
