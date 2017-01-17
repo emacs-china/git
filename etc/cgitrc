@@ -17,7 +17,7 @@ root-readme=/var/Emacs-China-Git-Mirrors/readme.html
 enable-index-owner=0
 
 # Allow download of tar.gz, tar.bz2 and zip-files
-snapshots=zip
+# snapshots=zip
 
 # Disable http transport git clone (We use git-daemon instead)
 enable-git-clone=0
@@ -40,22 +40,22 @@ section=mirrors
 repo.url=emacs.git
 repo.path=/var/Emacs-China-Git-Mirrors/emacs.git
 repo.desc=GNU Emacs
-repo.clone-url=git://git.emacs-china.org/emacs.git git://git.sv.gnu.org/emacs.git
+repo.clone-url=git://git.sv.gnu.org/emacs.git
 
 repo.url=emacs-mac.git
 repo.path=/var/Emacs-China-Git-Mirrors/emacs-mac.git
 repo.desc=Emacs Mac Port
-repo.clone-url=git://git.emacs-china.org/emacs-mac.git https://bitbucket.org/mituharu/emacs-mac.git
+repo.clone-url=https://bitbucket.org/mituharu/emacs-mac.git
 
 repo.url=org-mode.git
 repo.path=/var/Emacs-China-Git-Mirrors/org-mode.git
 repo.desc=Org Mode
-repo.clone-url=git://git.emacs-china.org/org-mode.git git://orgmode.org/org-mode.git
+repo.clone-url=git://orgmode.org/org-mode.git
 
 repo.url=remacs.git
 repo.path=/var/Emacs-China-Git-Mirrors/remacs.git
 repo.desc=A community-driven port of Emacs to Rust
-repo.clone-url=git://git.emacs-china.org/remacs.git https://github.com/Wilfred/remacs.git
+repo.clone-url=https://github.com/Wilfred/remacs.git
 
 # Local Variables:
 # mode: conf-unix
