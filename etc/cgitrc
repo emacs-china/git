@@ -32,6 +32,46 @@ virtual-root=/
 css=/cgit-css/cgit.css
 logo=/cgit-css/cgit.png
 
+# Highlight source code with python pygments-based highlighter
+source-filter=/var/www/htdocs/cgit/filters/syntax-highlighting.py
+
+# Format markdown, restructuredtext, manpages, text files, and html files
+# through the right converters
+about-filter=/var/www/htdocs/cgit/filters/about-formatting.sh
+
+##
+## Search for these files in the root of the default branch of repositories
+## for coming up with the about page:
+##
+readme=:README.md
+readme=:readme.md
+readme=:README.mkd
+readme=:readme.mkd
+readme=:README.rst
+readme=:readme.rst
+readme=:README.html
+readme=:readme.html
+readme=:README.htm
+readme=:readme.htm
+readme=:README.txt
+readme=:readme.txt
+readme=:README
+readme=:readme
+readme=:INSTALL.md
+readme=:install.md
+readme=:INSTALL.mkd
+readme=:install.mkd
+readme=:INSTALL.rst
+readme=:install.rst
+readme=:INSTALL.html
+readme=:install.html
+readme=:INSTALL.htm
+readme=:install.htm
+readme=:INSTALL.txt
+readme=:install.txt
+readme=:INSTALL
+readme=:install
+
 # Add some mirrored repositories
 section=mirrors
 
@@ -46,6 +86,7 @@ repo.url=emacs-mac.git
 repo.path=/var/Emacs-China-Git-Mirrors/emacs-mac.git
 repo.desc=Emacs Mac Port
 repo.clone-url=https://bitbucket.org/mituharu/emacs-mac.git
+repo.readme=:README-mac
 
 repo.url=org-mode.git
 repo.path=/var/Emacs-China-Git-Mirrors/org-mode.git
