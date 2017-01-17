@@ -75,27 +75,31 @@ readme=:install
 # Add some mirrored repositories
 section=mirrors
 
-# scan-path=/root/Emacs-China-Git-Mirrors/
+# scan-path=/var/Emacs-China-Git-Mirrors/
 
 repo.url=emacs.git
 repo.path=/var/Emacs-China-Git-Mirrors/emacs.git
 repo.desc=GNU Emacs
+repo.homepage=https://www.gnu.org/software/emacs/
 repo.clone-url=git://git.sv.gnu.org/emacs.git
 
 repo.url=emacs-mac.git
 repo.path=/var/Emacs-China-Git-Mirrors/emacs-mac.git
 repo.desc=Emacs Mac Port
+repo.homepage=https://bitbucket.org/mituharu/emacs-mac
 repo.clone-url=https://bitbucket.org/mituharu/emacs-mac.git
 repo.readme=:README-mac
 
 repo.url=org-mode.git
 repo.path=/var/Emacs-China-Git-Mirrors/org-mode.git
 repo.desc=Org Mode
+repo.homepage=http://orgmode.org
 repo.clone-url=git://orgmode.org/org-mode.git
 
 repo.url=remacs.git
 repo.path=/var/Emacs-China-Git-Mirrors/remacs.git
 repo.desc=A community-driven port of Emacs to Rust
+repo.homepage=https://github.com/Wilfred/remacs
 repo.clone-url=https://github.com/Wilfred/remacs.git
 
 # Local Variables:
